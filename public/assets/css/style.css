@@ -1,0 +1,51 @@
+body{
+    background-image: url("https://i.ytimg.com/vi/7fg7w04B6fQ/maxresdefault.jpg");
+    background-size: cover;
+}
+
+
+.textbox
+{
+    width: auto;
+    height: auto;
+   /* margin: calc(50vh - 190px) auto;*/
+    font-family: 'Montserrat', sans-serif;
+    opacity: 0.8 !important;
+}
+
+/* speech bubble 12 */
+
+.box
+{
+    width: 300px;
+    margin: 50px auto;
+    border: 4px #00bfb6;
+    padding: 20px;
+    text-align: center;
+    font-weight: 900;
+    font-family: arial;
+    position: relative;
+    opacity: 0.8;
+}
+
+.box-bg
+{
+    background: white;
+    color: black;
+    opacity: 0.8;
+}
+
+.sb12:before
+{
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 0px solid transparent;
+    border-right: 20px solid white;
+    border-top: 0px solid white;
+    border-bottom: 60px solid transparent;
+    left: 50px;
+    bottom: -60px;
+    opacity: 0.8;
+}
