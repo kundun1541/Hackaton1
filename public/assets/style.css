@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Cabin+Sketch");
+
+body {
+    font-family: 'cabin Sketch';
+    background-color: grey;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+h4 {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+
