@@ -3,7 +3,7 @@ echo '
 
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
-<link href="choixperso.css" rel="stylesheet">
+<link href="assets/css/choixperso.css" rel="stylesheet">
 <!-- Team -->
 <section id="team" class="pb-5">
     <div class="container">
