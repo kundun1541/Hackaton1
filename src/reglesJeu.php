@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="../public/assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="../public/assets/css/reglesjeu_style.css" />
     <title>Wild Easter Egg Game</title>
 </head>
 <body>
@@ -26,17 +26,18 @@
 
 <div class="container-flex">
     <div class="container py-3 d-flex align-content-center flex-wrap">
-        <div class="card shadow-lg p-3 mb-5 rounded-circle">
-            <div class="row ">
+        <div class=" p-3 mb-5">
+            <div class="row">
                 <div class="col-md-4">
                     <img src="http://www.franceregion.fr/assets/frontend/media/images/Lapin2.png" class="w-100">
                 </div>
-                <div class="textbox col-md-6 px-3">
-                    <div class="card-block px-3">
-                        <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
-                        <p class="card-text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                        <p class="card-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <a href="#" class="btn btn-primary">Read More</a>
+                <div class="card shadow-lg col-md-6 px-3">
+                    <div class="card-block px-3 mt-5">
+                        <h4 class="card-title">REGLES DU JEU !</h4>
+                        <p class="card-text">- Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. </p>
+                        <p class="card-text">- Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+                        <p class="card-text">- Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                        <p class="card-text">- Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
                     </div>
                 </div>
             </div>

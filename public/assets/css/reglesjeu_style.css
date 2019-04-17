@@ -4,14 +4,14 @@ body{
 }
 
 
-.textbox
+.card
 {
     width: auto;
     height: auto;
-   /* margin: calc(50vh - 190px) auto;*/
     font-family: 'Montserrat', sans-serif;
     opacity: 0.8 !important;
 }
+
 
 /* speech bubble 12 */
 
@@ -19,7 +19,6 @@ body{
 {
     width: 300px;
     margin: 50px auto;
-    border: 4px #00bfb6;
     padding: 20px;
     text-align: center;
     font-weight: 900;
