@@ -4,14 +4,12 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
 
 
-body{
+body {
     font-family: 'Cabin Sketch', cursive;
+    background-image: url('https://i.ytimg.com/vi/7fg7w04B6fQ/maxresdefault.jpg');
+    background-size: cover;
 }
 
-
-#team {
-    background: #eee !important;
-}
 
 .btn-primary:hover,
 .btn-primary:focus {
@@ -41,6 +39,7 @@ section .section-title {
 #team .card {
     border: none;
     background: #ffffff;
+    opacity: 0.8;
 }
 
 .image-flip:hover .backside,
@@ -131,7 +130,7 @@ section .section-title {
 }
 
 .frontside .card .card-body img {
-    width: 120px;
-    height: 120px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
 }
