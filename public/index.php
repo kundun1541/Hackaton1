@@ -4,7 +4,7 @@ if(session_status() === PHP_SESSION_NONE) session_start();
 if($_POST && !empty($_POST['name']))
 {
    $_SESSION['joueur'] = $_POST['name'];
-   header("location: http://localhost:8000/reglesJeu.php");
+   header("location: http://localhost:8000/reglesjeu.php");
 }
 
 ?><!doctype html>
