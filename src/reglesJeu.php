@@ -18,8 +18,13 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-4">
-            <div class="box box-bg sb12 shadow-lg">Bonjour {{nom du joueur}}, voici les regles du jeu ! </div>
+        <div class="col-2">
+            <div class="box box-bg sb12 shadow-lg rounded">
+                <h2><p>Bonjour, </p>
+                    <p> {{nom du joueur}} </p>
+                    <p>voici les regles du jeu !</p>
+                </h2>
+            </div>
         </div>
     </div>
 </div>
@@ -32,12 +37,13 @@
                     <img src="http://www.franceregion.fr/assets/frontend/media/images/Lapin2.png" class="w-100">
                 </div>
                 <div class="card shadow-lg col-md-8 px-3 rounded-circle">
-                    <div class="card-block px-5 ml-5 mr-7 mt-5 mb-5">
-                        <h4 class="card-title">REGLES DU JEU !</h4>
-                        <p class="card-text">- Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. </p>
-                        <p class="card-text">- Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
-                        <p class="card-text">- Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-                        <p class="card-text">- Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+                    <div class="card-block px-5 ml-5 mr-5 mt-5 mb-5">
+                        <h2 class="card-title">REGLES DU JEU !</h2>
+                        <h3 class="card-text">1 - Choisis ton personnage preferé. </h3>
+                        <h3  class="card-text">2 - Défonce le bouton << GO >>. </p>
+                        <h3  class="card-text">3 - Tire sur LE lapin qui cache l'oeuf.</p>
+                        <h3  class="card-text">4 - Si tu gagnes 3 oeufs, tu débloques un PERSONNAGE MYSTERE.</p>
+                        <h3  class="card-text">5 - Vas y mon lapin, pète le game!</p>
                     </div>
                 </div>
             </div>

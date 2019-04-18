@@ -1,4 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
+
+
 body{
+    font-family: 'Cabin Sketch', cursive;
     background-image: url("https://i.ytimg.com/vi/7fg7w04B6fQ/maxresdefault.jpg");
     background-size: cover;
 }
@@ -6,9 +11,10 @@ body{
 
 .card
 {
-    width: auto;
+    text-align: center;
+    width: 80em;
     height: auto;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Cabin Sketch', cursive;
     opacity: 0.8 !important;
 }
 
@@ -17,39 +23,33 @@ body{
     text-align: center;
 }
 
-
 /* speech bubble 12 */
 
 .box
 {
-    width: 300px;
-    margin: 50px auto;
+    width: 400px;
+    margin-top: 90px;
     padding: 20px;
     text-align: center;
-    font-weight: 900;
-    font-family: arial;
+    font-weight: bolder;
+    font-family: 'Cabin Sketch', cursive;
     position: relative;
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 .box-bg
 {
     background: white;
-    color: black;
-    opacity: 0.8;
+
 }
 
 .sb12:before
 {
-    content: "";
-    width: 0px;
-    height: 0px;
+    text-align: center;
     position: absolute;
-    border-left: 0px solid transparent;
     border-right: 20px solid white;
-    border-top: 0px solid white;
     border-bottom: 60px solid transparent;
     left: 50px;
     bottom: -60px;
-    opacity: 0.8;
+    opacity: 0.7;
 }
