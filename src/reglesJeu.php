@@ -31,8 +31,8 @@
                 <div class="col-md-4">
                     <img src="http://www.franceregion.fr/assets/frontend/media/images/Lapin2.png" class="w-100">
                 </div>
-                <div class="card shadow-lg col-md-6 px-3">
-                    <div class="card-block px-3 mt-5">
+                <div class="card shadow-lg col-md-8 px-3 rounded-circle">
+                    <div class="card-block px-5 ml-5 mr-7 mt-5 mb-5">
                         <h4 class="card-title">REGLES DU JEU !</h4>
                         <p class="card-text">- Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. </p>
                         <p class="card-text">- Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>

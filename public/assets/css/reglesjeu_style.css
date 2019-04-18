@@ -12,6 +12,11 @@ body{
     opacity: 0.8 !important;
 }
 
+.card-title
+{
+    text-align: center;
+}
+
 
 /* speech bubble 12 */
 
