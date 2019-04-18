@@ -39,7 +39,17 @@ if(!empty($_POST['submit']))
     <br/>
 
     <form action="/reglesJeu.php">
-      <input type="text" name="name" id="name" placeholder="Ton prénom" required ><br>
+      <input type="text" name="name" id="name" placeholder="Ton prénom" title="Mets ton prénom petit rigolo"><br>
+      <?php   if (empty($_POST['name']))
+    {
+        echo "<Mets ton nom petit rigolo<br/>";
+    }
+        else {
+
+          echo "C'est parti";
+
+        }
+      ?>
     </form>
     <br/>
 
