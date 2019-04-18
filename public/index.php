@@ -1,14 +1,14 @@
 <?php
 if(session_status() === PHP_SESSION_NONE) session_start();
 
-if($_POST && !empty($_POST['name']))
-{
+if(!empty($_POST['name'])) {
    $_SESSION['joueur'] = $_POST['name'];
    header("location: http://localhost:8000/reglesjeu.php");
 }
+?>
 
-?><!doctype html>
-<html lang="en">
+<!doctype html>
+<html lang="fr">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -18,12 +18,26 @@ if($_POST && !empty($_POST['name']))
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <title>Wild Easter</title>
-  
-
   </head>
   <body>
-
     <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-img">
+
+                        </div>
+                        <div class="card-title">
+
+                        </div>
+                        <div class="text">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
       <h1>Bunny bonnety</h1>
       
