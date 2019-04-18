@@ -1,9 +1,11 @@
 <?php
 
 if(session_status() === PHP_SESSION_NONE) session_start();
-$alea = random_int(0, 57);
+$nom = $_SESSION['joueur'];
+
 
 ?>
+
 
 <!doctype html>
 <html lang="en">
@@ -23,7 +25,7 @@ $alea = random_int(0, 57);
         <div class="col-2">
             <div class="box box-bg sb12 shadow-lg rounded-circle">
                 <h2><p>Bonjour, </p>
-                    <p> {{nom du joueur}} </p>
+                    <p> <?= $nom ?> </p>
                     <p>voici les regles du jeu !</p>
                 </h2>
             </div>
