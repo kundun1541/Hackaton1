@@ -2,6 +2,7 @@
 require "api.php";
 require "../vendor/autoload.php";
 $tab = $_SESSION['api'];
+if(session_status() === PHP_SESSION_NONE) session_start();
 $alea = random_int(0, 57);
 ?>
 
