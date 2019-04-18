@@ -26,7 +26,7 @@ if(!empty($_POST['name'])) {
                 <div class="card">
                     <div class="card-body">
                         <div class="card-img">
-
+                        
                         </div>
                         <div class="card-title">
 
