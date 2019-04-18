@@ -3,7 +3,6 @@
 if(session_status() === PHP_SESSION_NONE) session_start();
 $nom = $_SESSION['joueur'];
 
-
 ?>
 
 
@@ -19,42 +18,39 @@ $nom = $_SESSION['joueur'];
     <title>Wild Easter Egg Game</title>
 </head>
 <body>
-
 <div class="container">
-    <div class="row">
-        <div class="col-2">
-            <div class="box box-bg sb12 shadow-lg rounded-circle">
+    <div class="container-flex">
+        <div class="row">
+            <div class="box box-bg sb12 shadow-lg rounded-circle mr-5">
                 <h2><p>Bonjour, </p>
-                    <p> <?= $nom ?> </p>
+                    <p> <?= $nom ?>  </p>
                     <p>voici les regles du jeu !</p>
                 </h2>
             </div>
         </div>
     </div>
-</div>
 
-<div class="container-flex">
-    <div class="container py-3 d-flex align-content-center flex-wrap">
-        <div class=" p-3 mb-5">
-            <div class="row">
-                <div class="col-md-4">
-                    <img src="http://www.franceregion.fr/assets/frontend/media/images/Lapin2.png" class="w-100">
+    <div class=" py-3 d-flex align-content-center flex-wrap p-3 mb-5">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="http://www.franceregion.fr/assets/frontend/media/images/Lapin2.png" class="w-100">
+            </div>
+            <div class="card shadow-lg col-md-8 px-3 rounded-circle">
+                <div class="card-block px-5 ml-5 mr-5 mt-5 mb-5">
+                    <h2 class="card-title">REGLES DU JEU !</h2>
+                    <h3 class="card-text">1 - Sélectionne ton personnage preferé. </h3>
+                    <h3  class="card-text">2 - Appuie sur le bouton << GO >>. </p>
+                    <h3  class="card-text">3 - Choisis LE lapin qui cache l'oeuf.</p>
+                    <h3  class="card-text">4 - Si tu gagnes 3 oeufs, tu débloques un PERSONNAGE MYSTERE.</p>
+                    <h3  class="card-text">5 - Vas y mon lapin, pète le game!</p>
+                    <a href="#" title=""><img src="https://koreamarket4u.com/images/a-arrow-right.gif" class="suivant"></a>
+                    <h2>GO !</h2>
                 </div>
-                <div class="card shadow-lg col-md-8 px-3 rounded-circle">
-                    <div class="card-block px-5 ml-5 mr-5 mt-5 mb-5">
-                        <h2 class="card-title">REGLES DU JEU !</h2>
-                        <h3 class="card-text">1 - Sélectionne ton personnage preferé. </h3>
-                        <h3  class="card-text">2 - Appuie le bouton << GO >>. </p>
-                        <h3  class="card-text">3 - Choisis LE lapin qui cache l'oeuf.</p>
-                        <h3  class="card-text">4 - Si tu gagnes 3 oeufs, tu débloques un PERSONNAGE MYSTERE.</p>
-                        <h3  class="card-text">5 - Vas y mon lapin, pète le game!</p>
-                    </div>
-                </div>
+
             </div>
         </div>
     </div>
 </div>
-
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

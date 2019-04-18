@@ -8,6 +8,11 @@ body{
     background-size: cover;
 }
 
+.suivant
+{
+    width: 20%;
+    height: 20%;
+}
 
 .card
 {
