@@ -1,8 +1,10 @@
 <?php
 
-
+if(session_status() === PHP_SESSION_NONE) session_start();
+$alea = random_int(0, 57);
 
 ?>
+
 <!doctype html>
 <html lang="en">
 <head>
