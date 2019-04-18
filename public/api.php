@@ -2,7 +2,7 @@
 require "../vendor/autoload.php";
 
 use GuzzleHttp\Client;
-//session_start();
+if(session_status() === PHP_SESSION_NONE) session_start();
 
 
 // Create a client with a base URI
