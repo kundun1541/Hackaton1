@@ -17,6 +17,10 @@ shuffle($tab);
     <title>Bunny's Bunto</title>
 </head>
 <body>
+    <audio autoplay loop controls id="playAudio">
+        <source src="assets/sound/tetris.mp3">
+    </audio>
+    
     <div class="container d-flex justify-content-center mt-5">
         <div class="row ">
             <?php $_SESSION['gobelet'] = $tab[0]; ?>
