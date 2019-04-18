@@ -13,8 +13,7 @@ $var = (bool)$_SESSION['gobelet'];
     <div class="card" data-toggle="modal" data-target="#win" style="width: 17rem;">
         <img class="card-img" src="https://content.pearl.fr/media/cache/default/article_large_high_nocrop/shared/images/articles/K/KT2/figurine-lapins-cretins-soutif-ref_KT2576_1.jpg">
     </div>
-
-
+    <?php $_SESSION['perso'] = 'Yavuz';?>
 </div>
 <?php else: ?>
 <!-- Carte perdante -->
@@ -40,6 +39,9 @@ $var = (bool)$_SESSION['gobelet'];
                 <div class="row d-flex justify-content-center">
                     <h6><?= $_SESSION['egg']['name'] ?></h6>
                 </div>
+                <div class="row d-flex justify-content-center m-4">
+                    <h4>Bien joué mon lapin! découvre ton nouveau personnage</h4>
+                </div>
             </div>
 
             <div class="modal-footer">
@@ -61,9 +63,12 @@ $var = (bool)$_SESSION['gobelet'];
                 <div class="row d-flex justify-content-center">
                     <h1>C'est perdu, rejoue encore !</h1>
                 </div>
+                <div class="row d-flex justify-content-center">
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/71ZbULNnGZL._SX679_.jpg" width="auto" height="300">
+                </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">On s'en refait une ?</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="javascript:window.location.reload()">On s'en refait une ?</button>
             </div>
         </div>
     </div>

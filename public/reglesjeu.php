@@ -43,7 +43,7 @@ $nom = $_SESSION['joueur'];
                     <h3  class="card-text">3 - Choisis LE lapin qui cache l'oeuf.</p>
                     <h3  class="card-text">4 - Si tu gagnes 3 oeufs, tu débloques un PERSONNAGE MYSTERE.</p>
                     <h3  class="card-text">5 - Vas y mon lapin, pète le game!</p>
-                    <a href="#" title=""><img src="https://koreamarket4u.com/images/a-arrow-right.gif" class="suivant"></a>
+                    <a href="choixperso.php" title=""><img src="https://koreamarket4u.com/images/a-arrow-right.gif" class="suivant"></a>
                     <h2>GO !</h2>
                 </div>
 

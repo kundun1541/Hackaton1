@@ -27,6 +27,17 @@ shuffle($tab);
             <?php require "gobelet.php" ?>
         </div>
     </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-10">
+            </div>
+            <div class="col-2 mt-5">
+                <a href="choixperso.php"><button type="button" class="btn btn-warning btn-lg">Change de perso</button></a>
+            </div>
+        </div>
+
+
+    </div>
 
 
 <!-- Optional JavaScript -->

@@ -25,47 +25,34 @@ if(!empty($_POST['name'])) {
             <div class="col">
                 <div class="card">
                     <div class="card-body">
-                        <div class="card-img">
-                        
+                        <div class="card-img d-flex align-content-center">
+                            <img src="https://www.ludo.fr/image/ludo_web_hero_recommended_tablet/rabbid-egg-dodoraptor-cmyk.png"
                         </div>
                         <div class="card-title">
-
+                            <h1>Viens passer un moment cool avec moi !</h1>
+                            <h2 class="mt-5">Comment t'appelles-tu mon lapinou ?</h2>
                         </div>
-                        <div class="text">
+                        <div class="card-text">
+                            <form method="POST">
+                                <input type="text" name="name" id="name" placeholder="Ton prénom" title="Mets ton prénom petit rigolo"><br>
+                                <?php   if (empty($_POST['name']))
+                                {
+                                    echo "<Mets ton nom petit rigolo<br/>";
+                                }
+                                else {
 
+                                    echo "C'est parti";
+
+                                }
+                                ?>
+
+                                <div class="text-center"><button class="btn btn-light btn-sx mt-3" type="submit">Jouer</button></div>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-      <h1>Bunny bonnety</h1>
-      
-    <h2>Viens passer un moment cool avec moi !</h2>
-
-    <a><img src="https://www.ludo.fr/image/ludo_web_hero_recommended_tablet/rabbid-egg-dodoraptor-cmyk.png" class="rounded mx-auto d-block" alt=""></a>
-    <br/>
- 
-    <h4>Comment t'appelles-tu mon lapinou ?</h4>
-    <br/>
-
-    <form method="POST">
-      <input type="text" name="name" id="name" placeholder="Ton prénom" title="Mets ton prénom petit rigolo"><br>
-      <?php   if (empty($_POST['name']))
-    {
-        echo "<Mets ton nom petit rigolo<br/>";
-    }
-        else {
-
-          echo "C'est parti";
-
-        }
-      ?>
-    <div class="text-center"><button class="btn btn-light btn-sx" type="submit">Jouer</button></div>      
-    </form>
-    <br/>
-
-
     </div>
     
     
