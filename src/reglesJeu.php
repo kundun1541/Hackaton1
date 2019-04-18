@@ -21,7 +21,7 @@ $alea = random_int(0, 57);
 <div class="container">
     <div class="row">
         <div class="col-2">
-            <div class="box box-bg sb12 shadow-lg rounded">
+            <div class="box box-bg sb12 shadow-lg rounded-circle">
                 <h2><p>Bonjour, </p>
                     <p> {{nom du joueur}} </p>
                     <p>voici les regles du jeu !</p>
@@ -41,9 +41,9 @@ $alea = random_int(0, 57);
                 <div class="card shadow-lg col-md-8 px-3 rounded-circle">
                     <div class="card-block px-5 ml-5 mr-5 mt-5 mb-5">
                         <h2 class="card-title">REGLES DU JEU !</h2>
-                        <h3 class="card-text">1 - Choisis ton personnage preferé. </h3>
+                        <h3 class="card-text">1 - Sélectionne ton personnage preferé. </h3>
                         <h3  class="card-text">2 - Appuie le bouton << GO >>. </p>
-                        <h3  class="card-text">3 - Tire sur LE lapin qui cache l'oeuf.</p>
+                        <h3  class="card-text">3 - Choisis LE lapin qui cache l'oeuf.</p>
                         <h3  class="card-text">4 - Si tu gagnes 3 oeufs, tu débloques un PERSONNAGE MYSTERE.</p>
                         <h3  class="card-text">5 - Vas y mon lapin, pète le game!</p>
                     </div>
