@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
+
+
+body{
+    font-family: 'Cabin Sketch', cursive;
+    background-image: url("https://i.ytimg.com/vi/7fg7w04B6fQ/maxresdefault.jpg");
+    background-size: cover;
+}
+
+.suivant
+{
+    width: 20%;
+    height: 20%;
+}
+
+.card
+{
+    text-align: center;
+    width: 80em;
+    height: auto;
+    font-family: 'Cabin Sketch', cursive;
+    opacity: 0.8 !important;
+}
+
+.card-title
+{
+    text-align: center;
+}
+
+/* speech bubble 12 */
+
+.box
+{
+    width: 400px;
+    margin-top: 90px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Cabin Sketch', cursive;
+    position: relative;
+    opacity: 0.8;
+}
+
+.box-bg
+{
+    background: white;
+
+}
+
+.sb12:before
+{
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 0px solid
+    text-align: center;
+    border-right: 50px solid white;
+    border-bottom: 60px solid transparent;
+    left: 180px;
+    bottom: -60px;
+    opacity: 0.8;
+}

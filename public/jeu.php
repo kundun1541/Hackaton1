@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="fr">
 <head>
@@ -11,8 +12,8 @@
     <title>Bunny's Bunto</title>
 </head>
 <body>
-    <div class="container">
-        <div class="row">
+    <div class="container d-flex justify-content-center mt-5">
+        <div class="row ">
             <?php require "gobelet.php" ?>
             <?php require "gobelet.php" ?>
             <?php require "gobelet.php" ?>
