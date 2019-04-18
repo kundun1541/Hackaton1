@@ -5,6 +5,12 @@ body {
     background-color: lightblue !important;
 }
 
+h1 {
+    font-style: italic;
+    text-align: center;
+    color: 
+}
+
 h2 {
     text-align: center;
     padding-top: 50px;
