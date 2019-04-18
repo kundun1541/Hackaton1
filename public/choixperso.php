@@ -8,4 +8,3 @@ require ('vignette.php');
 require ('vignette.php');
 require ('vignette.php');
 require ('vignette.php');
-
