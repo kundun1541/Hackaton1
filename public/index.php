@@ -1,21 +1,20 @@
 <?php
 if(session_status() === PHP_SESSION_NONE) session_start();
 
-if(!empty($_POST['submit']))
+if($_POST && !empty($_POST['name']))
 {
    $_SESSION['joueur'] = $_POST['name'];
    header("location: http://localhost:8000/reglesJeu.php");
 }
-?>
 
-<!doctype html>
+?><!doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/styleIndex.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <title>Wild Easter</title>
@@ -24,7 +23,7 @@ if(!empty($_POST['submit']))
   </head>
   <body>
 
-  <div class="container">
+    <div class="container">
 
       <h1>Bunny bonnety</h1>
       
@@ -36,7 +35,7 @@ if(!empty($_POST['submit']))
     <h4>Comment t'appelles-tu mon lapinou ?</h4>
     <br/>
 
-    <form action="/reglesJeu.php">
+    <form method="POST">
       <input type="text" name="name" id="name" placeholder="Ton prénom" title="Mets ton prénom petit rigolo"><br>
       <?php   if (empty($_POST['name']))
     {
@@ -48,12 +47,15 @@ if(!empty($_POST['submit']))
 
         }
       ?>
+    <div class="text-center"><button class="btn btn-light btn-sx" type="submit">Jouer</button></div>      
     </form>
     <br/>
 
-    <div class="text-center"><button class="btn btn-light btn-sx" type="submit">Jouer</button></div>
+
     </div>
     
+    
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
