@@ -1,8 +1,9 @@
-@import url("https://fonts.googleapis.com/css?family=Cabin+Sketch");
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
 
 body {
-    font-family: 'cabin Sketch';
-    background-color: lightblue !important;
+    font-family: 'Cabin Sketch', cursive;
+    background-image: url("/assets/images/fond_gobelets.jpg");
+    background-size: cover;
 }
 
 h1 {
