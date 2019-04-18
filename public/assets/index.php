@@ -1,16 +1,13 @@
-<?php 
+<?php
 if(session_status() === PHP_SESSION_NONE) session_start();
 
-if(!empty($_POST['submit']))
+if($_POST && !empty($_POST['name']))
 {
    $_SESSION['joueur'] = $_POST['name'];
    header("location: http://localhost:8000/reglesJeu.php");
 }
 
-?>
-
-
-<!doctype html>
+?><!doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -38,7 +35,7 @@ if(!empty($_POST['submit']))
     <h4>Comment t'appelles-tu mon lapinou ?</h4>
     <br/>
 
-    <form action="/reglesJeu.php">
+    <form method="POST">
       <input type="text" name="name" id="name" placeholder="Ton prénom" title="Mets ton prénom petit rigolo"><br>
       <?php   if (empty($_POST['name']))
     {
@@ -50,10 +47,11 @@ if(!empty($_POST['submit']))
 
         }
       ?>
+    <div class="text-center"><button class="btn btn-light btn-sx" type="submit">Jouer</button></div>      
     </form>
     <br/>
 
-    <div class="text-center"><button class="btn btn-light btn-sx" type="submit">Jouer</button></div>
+
     </div>
     
     
