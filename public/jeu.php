@@ -1,3 +1,8 @@
+<?php
+if(session_status() === PHP_SESSION_NONE) session_start();
+$tab =[true, false, false];
+shuffle($tab);
+?>
 
 <!doctype html>
 <html lang="fr">
@@ -14,11 +19,15 @@
 <body>
     <div class="container d-flex justify-content-center mt-5">
         <div class="row ">
+            <?php $_SESSION['gobelet'] = $tab[0]; ?>
             <?php require "gobelet.php" ?>
+            <?php $_SESSION['gobelet'] = $tab[1]; ?>
             <?php require "gobelet.php" ?>
+            <?php $_SESSION['gobelet'] = $tab[2]; ?>
             <?php require "gobelet.php" ?>
         </div>
     </div>
+
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
