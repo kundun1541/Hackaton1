@@ -40,7 +40,7 @@
                     <div class="card-block px-5 ml-5 mr-5 mt-5 mb-5">
                         <h2 class="card-title">REGLES DU JEU !</h2>
                         <h3 class="card-text">1 - Choisis ton personnage preferé. </h3>
-                        <h3  class="card-text">2 - Défonce le bouton << GO >>. </p>
+                        <h3  class="card-text">2 - Appuie le bouton << GO >>. </p>
                         <h3  class="card-text">3 - Tire sur LE lapin qui cache l'oeuf.</p>
                         <h3  class="card-text">4 - Si tu gagnes 3 oeufs, tu débloques un PERSONNAGE MYSTERE.</p>
                         <h3  class="card-text">5 - Vas y mon lapin, pète le game!</p>
