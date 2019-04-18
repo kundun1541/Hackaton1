@@ -1,5 +1,12 @@
+<?php
+if(session_status() === PHP_SESSION_NONE) session_start();
 
-
+if(!empty($_POST['submit']))
+{
+   $_SESSION['joueur'] = $_POST['name'];
+   header("location: http://localhost:8000/reglesJeu.php");
+}
+?>
 
 <!doctype html>
 <html lang="en">
@@ -17,28 +24,36 @@
   </head>
   <body>
 
-    <div class="container">
-    <h2>Si tu veux t'amuser, viens jouer avec nous !</h2>
+  <div class="container">
+
+      <h1>Bunny bonnety</h1>
+      
+    <h2>Viens passer un moment cool avec moi !</h2>
+
+    <a><img src="https://www.ludo.fr/image/ludo_web_hero_recommended_tablet/rabbid-egg-dodoraptor-cmyk.png" class="rounded mx-auto d-block" alt=""></a>
+    <br/>
+ 
+    <h4>Comment t'appelles-tu mon lapinou ?</h4>
     <br/>
 
-    <div class="box sb3">Allez, choppes les oeufs qu'on a planqué</div>
-    <a><img src="http://www.stickpng.com/assets/images/5a7f5df2abc3d121aba71178.png" class="rounded mx-auto d-block" alt=""></a>
-    <br/>
+    <form action="/reglesJeu.php">
+      <input type="text" name="name" id="name" placeholder="Ton prénom" title="Mets ton prénom petit rigolo"><br>
+      <?php   if (empty($_POST['name']))
+    {
+        echo "<Mets ton nom petit rigolo<br/>";
+    }
+        else {
 
-    <h4>Comment t'appelles-tu?</h4>
-    <br/>
+          echo "C'est parti";
 
-    <form action="/action_page.php">
-      <input type="text" name="name" id="name" placeholder="Ton prénom"><br>
+        }
+      ?>
     </form>
     <br/>
 
-    <div class="text-center"><button class="btn btn-light btn-sx" type="button">Clique ici</button></div>
+    <div class="text-center"><button class="btn btn-light btn-sx" type="submit">Jouer</button></div>
     </div>
     
-  
-
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
