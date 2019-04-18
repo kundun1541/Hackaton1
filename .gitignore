@@ -1,2 +1,5 @@
 
+/vendor
+composer.lock
+ds.store
 \.idea/
